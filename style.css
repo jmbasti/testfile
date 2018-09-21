@@ -1,0 +1,213 @@
+/*--------------------CUSTOM-FONT-FAMILY-----------------------*/
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {
+  font-family:"OpenSans";
+  src:url(./fonts/OpenSans-Regular.ttf);
+
+  font-weight:normal;
+  font-style:normal;
+}
+
+body {
+  font-family: 'OpenSans';
+}
+
+/* Font Awesome icon size */
+.icon {
+  font-size: 100px;
+  color: rgb(0, 186, 243);
+}
+
+.icon-1 {
+  font-size: 70px;
+  color: rgb(0, 186, 243);
+}
+
+.icon-2 {
+  font-size: 8px;
+}
+
+.icon-3 {
+  color: rgb(0, 186, 243);
+}
+
+/* HEADER SECTION */
+#header {
+  background-image: linear-gradient(rgba(0,0,0, 0.4),rgba(0,0,0, 0.4)),url(./img/lighthouse.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  height: 100vh;
+}
+
+#hero-heading {
+  padding-top: 200px;
+}
+
+.mt {
+  margin-top: -20px;
+}
+
+
+/* HELP SECTION */
+
+#help {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#help p {
+  font-size: light;
+}
+span {
+  color:  rgb(0, 186, 243);
+}
+
+/* TESTIMONIAL SECTION */
+#testimonial {
+  background-color: rgb(0, 186, 243);
+}
+
+#parent p {
+  font-size: 13px;
+}
+#quote {
+  font-size: 120px;
+}
+
+.carousel-indicators {
+  bottom: -20px;
+}
+.carousel-indicators li {
+  height: 10px;
+  width: 10px;
+  border-radius: 100px;
+}
+
+
+#parent {
+  position: relative;
+}
+
+.person {
+  background-color: rgb(0, 186, 243);
+  /* position: absolute; */
+  transform: translate(0%, -25%);
+}
+
+/* LOGISTICS */
+#logistics {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* PRICING SECTION */
+#pricing {
+  background-color: rgb(238, 238, 238);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* FORM SECTION */
+#form {
+  padding-top: 100px;
+  padding-bottom: 100px; 
+}
+#btn {
+background-color:  rgb(0, 186, 243);
+}
+
+/* MEDIA QUERIES */
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #hero-heading {
+      padding-top: 100px;
+    }
+
+  .marker {
+    display: none;
+  }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #hero-heading {
+      padding-top: 100px;
+    }
+
+    .marker {
+      display: none;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #hero-heading {
+      padding-top: 100px;
+    }
+
+    .marker {
+      display: none;
+    }
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #hero-heading {
+      padding-top: 30px;
+    }
+
+    .marker {
+      display: none;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #hero-heading {
+      padding-top: 30px;
+    }
+
+    .marker {
+      display: none;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #hero-heading {
+      padding-top: 100px;
+    }
+
+    .marker {
+      display: none;
+    }
+
+}
